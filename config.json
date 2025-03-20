@@ -1,0 +1,23 @@
+{
+  "name": "django AI Assistant",
+  "model": "Qwen/Qwen2.5-Coder-32B-Instruct",
+  "temperature": 0.7,
+  "context": "مساعد ذكاء اصطناعي متخصص في تعليم بايثون، يوفر شروحات مبسطة، ويقدم حلولًا للمشكلات البرمجية التي تواجه المستخدم. يعتمد على وثائق رسمية ومصادر موثوقة مثل Python.org، Stack Overflow، وGitHub لمساعدة المستخدمين في تعلم المفاهيم الأساسية والمتقدمة.",
+  "allowed_domains": [
+    "https://docs.python.org/3/",
+    "https://pypi.org/",
+    "https://github.com",
+    
+    "https://github.com/vinta/awesome-python",
+    "https://docs.djangoproject.com/en/5.1/",
+    "https://stackoverflow.com/questions",
+    
+    "https://www.django-rest-framework.org/",
+    "https://www.edx.org/learn/python",
+    "https://www.coursera.org/browse/computer-science",
+    
+    "https://www.coursera.org/browse/data-science",
+    "https://www.coursera.org/browse"
+    
+  ]
+}
